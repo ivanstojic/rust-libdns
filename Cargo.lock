@@ -52,10 +52,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "beanenum"
-version = "0.1.0"
-
-[[package]]
 name = "bitflags"
 version = "2.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -201,7 +197,6 @@ dependencies = [
 name = "rust-libdns"
 version = "0.1.0"
 dependencies = [
- "beanenum",
  "clap",
 ]
 

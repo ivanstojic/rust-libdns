@@ -1,6 +1,5 @@
 use std::fmt::{Display, Formatter};
 use std::string::String;
-use beanenum::FromIndexValue;
 
 pub enum RequestResponse {
     Request,
@@ -15,14 +14,6 @@ pub enum DNSType {
     SOA = 6,
     MX = 15,
     TXT = 16,
-}
-
-
-#[derive(FromIndexValue)]
-enum SomeDNSTypes {
-    A = 8,
-    B = 11,
-    C = 13,
 }
 
 impl TryFrom<u16> for DNSType {
